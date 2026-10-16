@@ -9,6 +9,15 @@
     "tries": 0
   },
   {
+    "id": "atppost17",
+    "client": "atp",
+    "at": "2026-10-16T16:15:00-03:00",
+    "media": "media/atp/atppost17.mp4",
+    "caption": "Velocidade também vende. ⏱️ O prazo típico da ATP é de 15 a 30 dias, do desenvolvimento ao produto acabado. Sua marca chega na prateleira sem esperar anos. Fale no WhatsApp · link na bio\n\n#agilidade #aerossol #terceirizacao #marcapropria #atpclean",
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "pp08-prazo",
     "client": "plugin",
     "at": "2026-10-16T17:45:00-03:00",
@@ -18,11 +27,29 @@
     "tries": 0
   },
   {
+    "id": "atppost18",
+    "client": "atp",
+    "at": "2026-10-16T18:15:00-03:00",
+    "media": "media/atp/atppost18.mp4",
+    "caption": "O que é da sua marca continua sendo da sua marca. 🔒 A ATP trabalha com sigilo do projeto ao produto final. Sua fórmula, seu diferencial, sua vantagem. Fale no WhatsApp · link na bio\n\n#confidencialidade #marcapropria #aerossol #terceirizacao #atpclean",
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "pp09-sindico",
     "client": "plugin",
     "at": "2026-10-16T19:45:00-03:00",
     "media": "media/plugin/pp09-sindico.mp4",
     "caption": "Síndico, o carro elétrico já chegou na sua garagem. 🔌 Quando o morador pedir carregador, o condomínio precisa de projeto de engenharia, não de improviso. Projeto modular e ART em 100% dos projetos. Link na bio\n\n#Sindico #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "atppost19",
+    "client": "atp",
+    "at": "2026-10-16T20:15:00-03:00",
+    "media": "media/atp/atppost19.mp4",
+    "caption": "Um só parceiro para todo o processo. 🎯 A ATP reúne desenvolvimento de fórmula, envase e controle de qualidade sob o mesmo teto. Menos fornecedores, menos risco, mais controle. Fale no WhatsApp · link na bio\n\n#fullservice #aerossol #terceirizacao #qualidade #atpclean",
     "status": "pending",
     "tries": 0
   }
