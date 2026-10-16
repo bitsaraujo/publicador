@@ -26,7 +26,8 @@
     "media": "media/plugin/pp08-prazo.mp4",
     "caption": "Seu carregador de carro elétrico do projeto à tomada em 1 a 3 dias. ⏱️ Instalação rápida, laudo ART incluso e suporte em até 48 horas. Sem dor de cabeça, do jeito que a engenharia faz. Link na bio\n\n#Wallbox #CarregadorVeicular #CarroEletrico #InstalacaoRapida #Curitiba",
     "status": "pending",
-    "tries": 0
+    "tries": 0,
+    "thumb_ms": 4825
   },
   {
     "id": "atppost18",
@@ -35,7 +36,8 @@
     "media": "media/atp/atppost18.mp4",
     "caption": "O que é da sua marca continua sendo da sua marca. 🔒 A ATP trabalha com sigilo do projeto ao produto final. Sua fórmula, seu diferencial, sua vantagem. Fale no WhatsApp · link na bio\n\n#confidencialidade #marcapropria #aerossol #terceirizacao #atpclean",
     "status": "pending",
-    "tries": 0
+    "tries": 0,
+    "thumb_ms": 4825
   },
   {
     "id": "pp09-sindico",
@@ -44,7 +46,8 @@
     "media": "media/plugin/pp09-sindico.mp4",
     "caption": "Síndico, o carro elétrico já chegou na sua garagem. 🔌 Quando o morador pedir carregador, o condomínio precisa de projeto de engenharia, não de improviso. Projeto modular e ART em 100% dos projetos. Link na bio\n\n#Sindico #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "status": "pending",
-    "tries": 0
+    "tries": 0,
+    "thumb_ms": 4825
   },
   {
     "id": "atppost19",
@@ -53,6 +56,7 @@
     "media": "media/atp/atppost19.mp4",
     "caption": "Um só parceiro para todo o processo. 🎯 A ATP reúne desenvolvimento de fórmula, envase e controle de qualidade sob o mesmo teto. Menos fornecedores, menos risco, mais controle. Fale no WhatsApp · link na bio\n\n#fullservice #aerossol #terceirizacao #qualidade #atpclean",
     "status": "pending",
-    "tries": 0
+    "tries": 0,
+    "thumb_ms": 4825
   }
 ]

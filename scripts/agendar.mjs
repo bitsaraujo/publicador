@@ -51,6 +51,13 @@ function comprimir(src, dst) {
     "-movflags", "+faststart", dst], { cwd: c.projeto, stdio: "inherit", shell: true });
 }
 
+// capa do Reel: quadro a 60% do video (o comeco das animacoes e branco/preto, o texto ja esta todo na tela)
+function capaMs(file) {
+  const out = execFileSync("npx", ["remotion", "ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", `"${file}"`],
+    { cwd: c.projeto, shell: true, encoding: "utf8" });
+  return Math.round(parseFloat(out) * 600);
+}
+
 const feitos = [];
 for (const id of idsArg.split(",").map((s) => s.trim()).filter(Boolean)) {
   const post = posts.find((p) => p.id === id || p.comando === id);
@@ -70,7 +77,7 @@ for (const id of idsArg.split(",").map((s) => s.trim()).filter(Boolean)) {
   const at = proximo.next().value;
   ocupados.add(at.slice(0, 10));
   const caption = [post.legenda, post.hashtags].filter(Boolean).join("\n\n");
-  sched.push({ id: post.id, client: clientId, at, media, caption, status: "pending", tries: 0 });
+  sched.push({ id: post.id, client: clientId, at, media, caption, thumb_ms: capaMs(dst), status: "pending", tries: 0 });
   feitos.push(`${at.slice(0, 16).replace("T", " ")}  ${clientId}/${post.id}  (${(fs.statSync(dst).size / 2 ** 20).toFixed(1)} MB)`);
 }
 
