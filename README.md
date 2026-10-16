@@ -14,7 +14,7 @@ Roda de graça no GitHub Actions a cada 15 min; não precisa de PC ligado nem VP
 
 ```
 node scripts/agendar.mjs villa dd-mocaccino,dd-cappuccino --inicio 2026-10-28 --dias seg,qua,sex --hora 11:30
-git add -A && git commit -m "agenda" && git push
+git pull --rebase && git add -A && git commit -m "agenda" && git push
 ```
 
 Clientes: `villa`, `atp`, `plugin` (ver `clients.json`). Horário de Brasília.
