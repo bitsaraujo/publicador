@@ -1,0 +1,23 @@
+{
+  "villa": {
+    "nome": "Vila Palhano",
+    "instagram": "vilapalhanolondrina",
+    "secret": "IG_TOKEN_VILLA",
+    "posts": "C:/Users/Pedro/Desktop/SISTEMAS/villapalhano/posts.json",
+    "projeto": "C:/Users/Pedro/Desktop/SISTEMAS/villapalhano"
+  },
+  "atp": {
+    "nome": "ATP América Latina",
+    "instagram": "atpamericalatina",
+    "secret": "IG_TOKEN_ATP",
+    "posts": "D:/_CLIENTES/ATP/atp-social/posts.json",
+    "projeto": "D:/_CLIENTES/ATP/atp-social"
+  },
+  "plugin": {
+    "nome": "Plugin Power Brasil",
+    "instagram": "pluginpowerbrasil",
+    "secret": "IG_TOKEN_PLUGIN",
+    "posts": "D:/_CLIENTES/PLUGIN-POWER/pluginpower-social/posts.json",
+    "projeto": "D:/_CLIENTES/PLUGIN-POWER/pluginpower-social"
+  }
+}

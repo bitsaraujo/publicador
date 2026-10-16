@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calendário de posts</title>
+<style>
+  :root { --bg:#f6f5f2; --card:#fff; --ink:#1b1b1b; --soft:#6b6b6b; --line:#e4e2dc;
+          --pend:#8a6d1f; --pendbg:#fbf1d6; --ok:#1f6b3a; --okbg:#dcf2e3; --err:#9b2020; --errbg:#f8dddd; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#151515; --card:#1f1f1f; --ink:#ececec; --soft:#a0a0a0; --line:#333;
+            --pendbg:#3a3118; --pend:#e8c76a; --okbg:#173322; --ok:#7fd69c; --errbg:#3d1a1a; --err:#f09a9a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.45 system-ui, sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--soft); margin: 0 0 18px; }
+  .filtros { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px; }
+  .filtros button { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; padding:6px 12px; cursor:pointer; }
+  .filtros button.on { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing:.06em; color:var(--soft); margin:22px 0 8px; }
+  .post { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px 14px; margin-bottom:8px; display:grid; grid-template-columns: 92px 1fr auto; gap:12px; align-items:start; }
+  .quando { font-weight:600; }
+  .quando small { display:block; color:var(--soft); font-weight:400; }
+  .cliente { font-weight:600; }
+  .cap { color:var(--soft); font-size:13px; white-space:pre-line; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .st { font-size:12px; padding:3px 9px; border-radius:999px; white-space:nowrap; }
+  .pending { background:var(--pendbg); color:var(--pend); } .posted { background:var(--okbg); color:var(--ok); } .error { background:var(--errbg); color:var(--err); }
+  .err { color:var(--err); font-size:12px; margin-top:4px; }
+  a { color: inherit; }
+  @media (max-width: 560px) { .post { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Calendário de posts</h1>
+  <p class="sub" id="resumo">carregando…</p>
+  <div class="filtros" id="filtros"></div>
+  <div id="lista"></div>
+</main>
+<script>
+const NOMES = { villa: "Vila Palhano", atp: "ATP", plugin: "Plugin Power" };
+const ST = { pending: "agendado", posted: "publicado", error: "erro" };
+let todos = [], filtro = "todos";
+const fmtDia = (d) => d.toLocaleDateString("pt-BR", { weekday: "long", day: "2-digit", month: "long", timeZone: "America/Sao_Paulo" });
+const fmtHora = (d) => d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" });
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function render() {
+  const lista = todos.filter((p) => filtro === "todos" || p.client === filtro);
+  const cont = (s) => todos.filter((p) => p.status === s).length;
+  document.getElementById("resumo").textContent = `${cont("pending")} agendados · ${cont("posted")} publicados · ${cont("error")} com erro`;
+  document.getElementById("filtros").innerHTML = ["todos", ...Object.keys(NOMES)]
+    .map((k) => `<button class="${k === filtro ? "on" : ""}" data-k="${k}">${k === "todos" ? "Todos" : NOMES[k]}</button>`).join("");
+  let html = "", dia = "";
+  for (const p of lista) {
+    const d = new Date(p.at), nd = fmtDia(d);
+    if (nd !== dia) { html += `<h2>${nd}</h2>`; dia = nd; }
+    const link = p.permalink ? ` · <a href="${esc(p.permalink)}" target="_blank" rel="noopener">ver no Instagram</a>` : "";
+    html += `<div class="post">
+      <div class="quando">${fmtHora(d)}<small>${esc(p.id)}</small></div>
+      <div><div class="cliente">${NOMES[p.client] || esc(p.client)}${link}</div><div class="cap">${esc(p.caption)}</div>
+      ${p.error ? `<div class="err">${esc(p.error)}</div>` : ""}</div>
+      <span class="st ${p.status}">${ST[p.status] || p.status}</span></div>`;
+  }
+  document.getElementById("lista").innerHTML = html || "<p class='sub'>Nada agendado.</p>";
+}
+document.getElementById("filtros").addEventListener("click", (e) => { if (e.target.dataset.k) { filtro = e.target.dataset.k; render(); } });
+fetch("schedule.json?" + Date.now()).then((r) => r.json()).then((s) => { todos = s.sort((a, b) => Date.parse(a.at) - Date.parse(b.at)); render(); })
+  .catch(() => (document.getElementById("resumo").textContent = "Não consegui ler o schedule.json."));
+</script>
+</body>
+</html>
