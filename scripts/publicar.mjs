@@ -117,4 +117,10 @@ for (const [id, t] of Object.entries(tokens)) {
     log(`${id}: nao renovou a chave: ${e.message}`);
   }
 }
-if (mudou) saveTokens(tokens);
+if (mudou) {
+  try {
+    saveTokens(tokens);
+  } catch (e) {
+    log(`nao salvou as chaves renovadas: ${e.message}`); // nunca derrubar a rodada depois de publicar
+  }
+}

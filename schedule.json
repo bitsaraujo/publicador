@@ -5,8 +5,9 @@
     "at": "2026-10-16T15:45:00-03:00",
     "media": "media/plugin/pp02-individualizacao.mp4",
     "caption": "Rateio injusto? Aqui não. ⚡ Com a individualização de consumo, cada morador paga somente a energia que usa para carregar o próprio carro. Transparência para o síndico, justiça para os moradores. Fale com um engenheiro · link na bio\n\n#Condominio #Sindico #CarroEletrico #CarregadorVeicular #Curitiba",
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "error": "marcado na mao: publicou mas o robo travou antes de salvar"
   },
   {
     "id": "atppost17",
@@ -14,8 +15,9 @@
     "at": "2026-10-16T16:15:00-03:00",
     "media": "media/atp/atppost17.mp4",
     "caption": "Velocidade também vende. ⏱️ O prazo típico da ATP é de 15 a 30 dias, do desenvolvimento ao produto acabado. Sua marca chega na prateleira sem esperar anos. Fale no WhatsApp · link na bio\n\n#agilidade #aerossol #terceirizacao #marcapropria #atpclean",
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "error": "marcado na mao: publicou mas o robo travou antes de salvar"
   },
   {
     "id": "pp08-prazo",
