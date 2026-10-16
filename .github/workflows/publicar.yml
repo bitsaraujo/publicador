@@ -7,10 +7,10 @@ on:
   workflow_dispatch:
     inputs:
       modo:
-        description: "publicar (normal) ou verificar (so confere as chaves)"
+        description: "publicar (normal), verificar (confere as chaves) ou listar (ultimos posts de cada conta)"
         default: publicar
         type: choice
-        options: [publicar, verificar]
+        options: [publicar, verificar, listar]
 
 permissions:
   contents: write
