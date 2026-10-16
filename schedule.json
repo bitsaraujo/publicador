@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "pp02-individualizacao",
+    "client": "plugin",
+    "at": "2026-10-16T15:45:00-03:00",
+    "media": "media/plugin/pp02-individualizacao.mp4",
+    "caption": "Rateio injusto? Aqui não. ⚡ Com a individualização de consumo, cada morador paga somente a energia que usa para carregar o próprio carro. Transparência para o síndico, justiça para os moradores. Fale com um engenheiro · link na bio\n\n#Condominio #Sindico #CarroEletrico #CarregadorVeicular #Curitiba",
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp08-prazo",
+    "client": "plugin",
+    "at": "2026-10-16T17:45:00-03:00",
+    "media": "media/plugin/pp08-prazo.mp4",
+    "caption": "Seu carregador de carro elétrico do projeto à tomada em 1 a 3 dias. ⏱️ Instalação rápida, laudo ART incluso e suporte em até 48 horas. Sem dor de cabeça, do jeito que a engenharia faz. Link na bio\n\n#Wallbox #CarregadorVeicular #CarroEletrico #InstalacaoRapida #Curitiba",
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp09-sindico",
+    "client": "plugin",
+    "at": "2026-10-16T19:45:00-03:00",
+    "media": "media/plugin/pp09-sindico.mp4",
+    "caption": "Síndico, o carro elétrico já chegou na sua garagem. 🔌 Quando o morador pedir carregador, o condomínio precisa de projeto de engenharia, não de improviso. Projeto modular e ART em 100% dos projetos. Link na bio\n\n#Sindico #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "status": "pending",
+    "tries": 0
+  }
+]
