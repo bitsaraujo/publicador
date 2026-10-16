@@ -1,5 +1,5 @@
 // Roda no PC: pega posts prontos do posts.json do cliente, copia a midia pro repo e marca as datas.
-// uso: node scripts/agendar.mjs <cliente> <id1,id2,...> [--inicio 2026-10-28] [--dias seg,qua,sex] [--hora 11:30]
+// uso: node scripts/agendar.mjs <cliente> <id1,id2,...> [--inicio 2026-10-28] [--dias seg,qua,sex] [--hora 11:30] [--em "2026-10-16 15:45,..."]
 //   ex: node scripts/agendar.mjs villa dd-mocaccino,dd-cappuccino --inicio 2026-10-28
 // Depois: git add -A && git commit && git push (o robo publica sozinho na hora).
 import fs from "fs";
@@ -39,7 +39,10 @@ function* slots() {
     d.setUTCDate(d.getUTCDate() + 1);
   }
 }
-const proximo = slots();
+// --em "2026-10-16 15:45,2026-10-16 17:45": horarios exatos, usados antes dos dias da semana
+const exatos = (opt("em", "") || "").split(",").map((s) => s.trim()).filter(Boolean).map((s) => `${s.replace(" ", "T")}:00-03:00`);
+const semanais = slots();
+const proximo = { next: () => (exatos.length ? { value: exatos.shift() } : semanais.next()) };
 
 function comprimir(src, dst) {
   // ffmpeg do Remotion que ja existe no projeto do cliente
