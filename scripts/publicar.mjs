@@ -33,6 +33,20 @@ if (process.env.MODO === "verificar") {
   process.exit(0);
 }
 
+if (process.env.MODO === "listar") {
+  // ultimos posts de cada conta (para saber o que ja saiu antes de agendar)
+  for (const [id, t] of Object.entries(tokens)) {
+    try {
+      const r = await igGet("me/media", { fields: "timestamp,media_type,caption,permalink", limit: "60" }, t.token);
+      log(`===== ${id}: ${r.data.length} post(s)`);
+      for (const m of r.data) console.log(`${m.timestamp.slice(0, 10)} | ${m.media_type} | ${(m.caption || "").replace(/\s+/g, " ").slice(0, 90)} | ${m.permalink}`);
+    } catch (e) {
+      log(`${id}: ERRO ${e.message}`);
+    }
+  }
+  process.exit(0);
+}
+
 async function urlNoAr(url) {
   const r = await fetch(url, { method: "HEAD" }).catch(() => null);
   return r?.ok;
