@@ -78,24 +78,24 @@
   {
     "id": "atppost21",
     "client": "atp",
-    "at": "2026-10-19T10:00:00-03:00",
+    "at": "2026-10-19T17:00:00-03:00",
     "media": "media/atp/atppost21.mp4",
     "caption": "Cada setor tem sua exigência. 🏥🌱 A ATP desenvolve aerossol de marca própria para segmentos como hospitalar e agroindústria, além de industrial e automotivo. Fale no WhatsApp · link na bio\n\n#hospitalar #agroindustria #aerossol #terceirizacao #atpclean",
     "thumb_ms": 4826,
-    "status": "error",
-    "tries": 3,
-    "error": "me/media: API access blocked. (code 200)"
+    "status": "pending",
+    "tries": 0,
+    "error": null
   },
   {
     "id": "pp10-morador-pediu",
     "client": "plugin",
-    "at": "2026-10-19T11:30:00-03:00",
+    "at": "2026-10-19T17:30:00-03:00",
     "media": "media/plugin/pp10-morador-pediu.mp4",
     "caption": "Morador pediu carregador de carro elétrico? 🚗⚡ O primeiro passo é a visita técnica gratuita: avaliamos quadro, aterramento, padrão de entrada e carga disponível do condomínio. Link na bio\n\n#VisitaTecnica #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
-    "status": "error",
-    "tries": 3,
-    "error": "me/media: API access blocked. (code 200)"
+    "status": "pending",
+    "tries": 0,
+    "error": null
   },
   {
     "id": "atppost39",
