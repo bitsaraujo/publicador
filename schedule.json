@@ -98,6 +98,26 @@
     "error": null
   },
   {
+    "id": "pp11-analisador",
+    "client": "plugin",
+    "at": "2026-10-20T11:30:00-03:00",
+    "media": "media/plugin/pp11-analisador.mp4",
+    "caption": "O prédio aguenta carregador de carro elétrico? 📊 A Plug-In Power faz o diagnóstico com analisador de energia antes do projeto: a carga disponível é medida, não estimada. Link na bio\n\n#Engenharia #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp12-art",
+    "client": "plugin",
+    "at": "2026-10-20T18:00:00-03:00",
+    "media": "media/plugin/pp12-art.mp4",
+    "caption": "ART em 100% dos projetos. 📄 Cada etapa da instalação tem ART emitida por engenheiro registrado no CREA. Responsável técnico: Eng. Milton Apter, CREA 9163-D PR. Link na bio\n\n#ART #Engenharia #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost39",
     "client": "atp",
     "at": "2026-10-21T10:00:00-03:00",
@@ -108,11 +128,41 @@
     "tries": 0
   },
   {
-    "id": "pp11-analisador",
+    "id": "pp13-quem-assina",
     "client": "plugin",
     "at": "2026-10-21T11:30:00-03:00",
-    "media": "media/plugin/pp11-analisador.mp4",
-    "caption": "O prédio aguenta carregador de carro elétrico? 📊 A Plug-In Power faz o diagnóstico com analisador de energia antes do projeto: a carga disponível é medida, não estimada. Link na bio\n\n#Engenharia #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "media": "media/plugin/pp13-quem-assina.mp4",
+    "caption": "Quem assina a instalação do carregador do seu condomínio? 👷 Na Plug-In Power, é engenheiro, com mais de 40 anos de engenharia elétrica. Link na bio\n\n#EngenheiroEletricista #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp14-seguranca",
+    "client": "plugin",
+    "at": "2026-10-21T18:00:00-03:00",
+    "media": "media/plugin/pp14-seguranca.mp4",
+    "caption": "Segurança começa no quadro. 🛡️ Avaliamos quadro e aterramento antes de instalar e seguimos as normas NBR 5410, NBR 17019:2022 e IEC 60364-7-722. Link na bio\n\n#Seguranca #NBR17019 #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp15-quem-carrega-paga",
+    "client": "plugin",
+    "at": "2026-10-22T11:30:00-03:00",
+    "media": "media/plugin/pp15-quem-carrega-paga.mp4",
+    "caption": "Quem carrega, paga. Só isso. ⚡ Com a medição individual de consumo, cada morador paga só o que carrega, sem rateio na conta do condomínio. Link na bio\n\n#Individualizacao #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp16-modular",
+    "client": "plugin",
+    "at": "2026-10-22T18:00:00-03:00",
+    "media": "media/plugin/pp16-modular.mp4",
+    "caption": "Começa pequeno e cresce com o prédio. 🏢 Projeto modular com instalação progressiva: o condomínio amplia a recarga conforme a demanda dos moradores. Link na bio\n\n#ProjetoModular #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
     "status": "pending",
     "tries": 0
@@ -128,11 +178,61 @@
     "tries": 0
   },
   {
-    "id": "pp12-art",
+    "id": "pp17-carga",
     "client": "plugin",
     "at": "2026-10-23T11:30:00-03:00",
-    "media": "media/plugin/pp12-art.mp4",
-    "caption": "ART em 100% dos projetos. 📄 Cada etapa da instalação tem ART emitida por engenheiro registrado no CREA. Responsável técnico: Eng. Milton Apter, CREA 9163-D PR. Link na bio\n\n#ART #Engenharia #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "media": "media/plugin/pp17-carga.mp4",
+    "caption": "Vários carros, carga sob controle. ⚙️ Planejamento elétrico completo e gerenciamento de carga para a garagem do condomínio receber mais carregadores. Link na bio\n\n#GerenciamentoDeCarga #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp18-assembleia",
+    "client": "plugin",
+    "at": "2026-10-23T18:00:00-03:00",
+    "media": "media/plugin/pp18-assembleia.mp4",
+    "caption": "Assembleia sobre carregadores no condomínio? 🗳️ A Plug-In Power participa com a documentação do projeto e responde às dúvidas de síndico e moradores. Link na bio\n\n#Assembleia #Sindico #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp19-visita",
+    "client": "plugin",
+    "at": "2026-10-24T11:30:00-03:00",
+    "media": "media/plugin/pp19-visita.mp4",
+    "caption": "Antes de orçar, a gente vistoria. 🔎 Visita técnica gratuita: quadro, aterramento, padrão de entrada e carga disponível do seu condomínio. Link na bio\n\n#VisitaTecnica #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp20-orcamento",
+    "client": "plugin",
+    "at": "2026-10-24T18:00:00-03:00",
+    "media": "media/plugin/pp20-orcamento.mp4",
+    "caption": "Orçamento fechado, sem surpresa. 📋 Projeto de engenharia com orçamento fechado e memorial descritivo antes de começar a obra. Link na bio\n\n#Orcamento #Engenharia #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp21-instalacao",
+    "client": "plugin",
+    "at": "2026-10-25T11:30:00-03:00",
+    "media": "media/plugin/pp21-instalacao.mp4",
+    "caption": "Instalado em 1 a 3 dias úteis. ⏱️ Depois do projeto e do orçamento aprovados, a instalação certificada do carregador sai rápido. Link na bio\n\n#Instalacao #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp22-entrega",
+    "client": "plugin",
+    "at": "2026-10-25T18:00:00-03:00",
+    "media": "media/plugin/pp22-entrega.mp4",
+    "caption": "Entregue com ART e garantia ativada. ✅ Entrega documentada com ART, comissionamento do carregador e ativação da garantia. Link na bio\n\n#ART #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
     "status": "pending",
     "tries": 0
@@ -148,11 +248,41 @@
     "tries": 0
   },
   {
-    "id": "pp13-quem-assina",
+    "id": "pp23-suporte",
     "client": "plugin",
     "at": "2026-10-26T11:30:00-03:00",
-    "media": "media/plugin/pp13-quem-assina.mp4",
-    "caption": "Quem assina a instalação do carregador do seu condomínio? 👷 Na Plug-In Power, é engenheiro, com mais de 40 anos de engenharia elétrica. Link na bio\n\n#EngenheiroEletricista #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "media": "media/plugin/pp23-suporte.mp4",
+    "caption": "Deu dúvida depois da instalação? 💬 A Plug-In Power continua com o condomínio: suporte em até 48 horas. Link na bio\n\n#Suporte #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp24-numeros",
+    "client": "plugin",
+    "at": "2026-10-26T18:00:00-03:00",
+    "media": "media/plugin/pp24-numeros.mp4",
+    "caption": "+400 instalações e +40 anos de engenharia elétrica. 🔌 Recarga de carro elétrico para condomínios em Curitiba e região metropolitana. Link na bio\n\n#PlugInPower #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp25-credenciada",
+    "client": "plugin",
+    "at": "2026-10-27T11:30:00-03:00",
+    "media": "media/plugin/pp25-credenciada.mp4",
+    "caption": "Credenciada BYD e homologada GreenV. 🚗 E 9 marcas de carregadores homologadas para o seu condomínio. Link na bio\n\n#BYD #GreenV #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
+    "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "pp26-curitiba",
+    "client": "plugin",
+    "at": "2026-10-27T18:00:00-03:00",
+    "media": "media/plugin/pp26-curitiba.mp4",
+    "caption": "Seu condomínio pronto pro carro elétrico. ⚡ Projeto, instalação e ART para condomínios em Curitiba e região metropolitana. Link na bio\n\n#CuritibaPR #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
     "status": "pending",
     "tries": 0
@@ -168,31 +298,11 @@
     "tries": 0
   },
   {
-    "id": "pp14-seguranca",
-    "client": "plugin",
-    "at": "2026-10-28T11:30:00-03:00",
-    "media": "media/plugin/pp14-seguranca.mp4",
-    "caption": "Segurança começa no quadro. 🛡️ Avaliamos quadro e aterramento antes de instalar e seguimos as normas NBR 5410, NBR 17019:2022 e IEC 60364-7-722. Link na bio\n\n#Seguranca #NBR17019 #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
     "id": "atppost45",
     "client": "atp",
     "at": "2026-10-30T10:00:00-03:00",
     "media": "media/atp/atppost45.mp4",
     "caption": "Construção civil precisa de produto que funciona. 🏗 Espuma expansiva, silicone, desengripantes e limpa-contato com qualidade industrial e a sua marca. Fale no WhatsApp · link na bio\n\n#construcaocivil #produtosparaobra #aerossol #marcapropria #atpclean",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
-    "id": "pp15-quem-carrega-paga",
-    "client": "plugin",
-    "at": "2026-10-30T11:30:00-03:00",
-    "media": "media/plugin/pp15-quem-carrega-paga.mp4",
-    "caption": "Quem carrega, paga. Só isso. ⚡ Com a medição individual de consumo, cada morador paga só o que carrega, sem rateio na conta do condomínio. Link na bio\n\n#Individualizacao #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
     "status": "pending",
     "tries": 0
@@ -208,31 +318,11 @@
     "tries": 0
   },
   {
-    "id": "pp16-modular",
-    "client": "plugin",
-    "at": "2026-11-02T11:30:00-03:00",
-    "media": "media/plugin/pp16-modular.mp4",
-    "caption": "Começa pequeno e cresce com o prédio. 🏢 Projeto modular com instalação progressiva: o condomínio amplia a recarga conforme a demanda dos moradores. Link na bio\n\n#ProjetoModular #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
     "id": "atppost42",
     "client": "atp",
     "at": "2026-11-04T10:00:00-03:00",
     "media": "media/atp/atppost42.mp4",
     "caption": "Espuma expansiva em aerossol para a sua linha de obra. 🏗 A ATP desenvolve e envasa para construção civil com a sua marca. Fale no WhatsApp · link na bio\n\n#espumaexpansiva #construcaocivil #aerossol #marcapropria #atpclean",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
-    "id": "pp17-carga",
-    "client": "plugin",
-    "at": "2026-11-04T11:30:00-03:00",
-    "media": "media/plugin/pp17-carga.mp4",
-    "caption": "Vários carros, carga sob controle. ⚙️ Planejamento elétrico completo e gerenciamento de carga para a garagem do condomínio receber mais carregadores. Link na bio\n\n#GerenciamentoDeCarga #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
     "status": "pending",
     "tries": 0
@@ -248,31 +338,11 @@
     "tries": 0
   },
   {
-    "id": "pp18-assembleia",
-    "client": "plugin",
-    "at": "2026-11-06T11:30:00-03:00",
-    "media": "media/plugin/pp18-assembleia.mp4",
-    "caption": "Assembleia sobre carregadores no condomínio? 🗳️ A Plug-In Power participa com a documentação do projeto e responde às dúvidas de síndico e moradores. Link na bio\n\n#Assembleia #Sindico #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
     "id": "atppost29",
     "client": "atp",
     "at": "2026-11-09T10:00:00-03:00",
     "media": "media/atp/atppost29.mp4",
     "caption": "É aqui que o seu aerossol nasce. ⚙️ Envase com processo controlado do início ao fim: cada lata sai no padrão que a sua marca promete. Fale no WhatsApp · link na bio\n\n#envase #bastidores #aerossol #producao #atpclean",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
-    "id": "pp19-visita",
-    "client": "plugin",
-    "at": "2026-11-09T11:30:00-03:00",
-    "media": "media/plugin/pp19-visita.mp4",
-    "caption": "Antes de orçar, a gente vistoria. 🔎 Visita técnica gratuita: quadro, aterramento, padrão de entrada e carga disponível do seu condomínio. Link na bio\n\n#VisitaTecnica #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
     "status": "pending",
     "tries": 0
@@ -288,31 +358,11 @@
     "tries": 0
   },
   {
-    "id": "pp20-orcamento",
-    "client": "plugin",
-    "at": "2026-11-11T11:30:00-03:00",
-    "media": "media/plugin/pp20-orcamento.mp4",
-    "caption": "Orçamento fechado, sem surpresa. 📋 Projeto de engenharia com orçamento fechado e memorial descritivo antes de começar a obra. Link na bio\n\n#Orcamento #Engenharia #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
     "id": "atppost47",
     "client": "atp",
     "at": "2026-11-13T10:00:00-03:00",
     "media": "media/atp/atppost47.mp4",
     "caption": "O segmento hospitalar exige mais. 🏥 A ATP desenvolve aerossol de marca própria para segmentos exigentes, com testes em cada lote. Fale no WhatsApp · link na bio\n\n#hospitalar #qualidade #aerossol #marcapropria #atpclean",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
-    "id": "pp21-instalacao",
-    "client": "plugin",
-    "at": "2026-11-13T11:30:00-03:00",
-    "media": "media/plugin/pp21-instalacao.mp4",
-    "caption": "Instalado em 1 a 3 dias úteis. ⏱️ Depois do projeto e do orçamento aprovados, a instalação certificada do carregador sai rápido. Link na bio\n\n#Instalacao #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
     "status": "pending",
     "tries": 0
@@ -328,31 +378,11 @@
     "tries": 0
   },
   {
-    "id": "pp22-entrega",
-    "client": "plugin",
-    "at": "2026-11-16T11:30:00-03:00",
-    "media": "media/plugin/pp22-entrega.mp4",
-    "caption": "Entregue com ART e garantia ativada. ✅ Entrega documentada com ART, comissionamento do carregador e ativação da garantia. Link na bio\n\n#ART #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
     "id": "atppost48",
     "client": "atp",
     "at": "2026-11-18T10:00:00-03:00",
     "media": "media/atp/atppost48.mp4",
     "caption": "Envase controlado do início ao fim. ✅ Processo controlado e teste por lote, com a ISO 9001:2015 em implementação. Sua marca sai protegida. Fale no WhatsApp · link na bio\n\n#envase #controledequalidade #aerossol #terceirizacao #atpclean",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
-    "id": "pp23-suporte",
-    "client": "plugin",
-    "at": "2026-11-18T11:30:00-03:00",
-    "media": "media/plugin/pp23-suporte.mp4",
-    "caption": "Deu dúvida depois da instalação? 💬 A Plug-In Power continua com o condomínio: suporte em até 48 horas. Link na bio\n\n#Suporte #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
     "status": "pending",
     "tries": 0
@@ -368,16 +398,6 @@
     "tries": 0
   },
   {
-    "id": "pp24-numeros",
-    "client": "plugin",
-    "at": "2026-11-20T11:30:00-03:00",
-    "media": "media/plugin/pp24-numeros.mp4",
-    "caption": "+400 instalações e +40 anos de engenharia elétrica. 🔌 Recarga de carro elétrico para condomínios em Curitiba e região metropolitana. Link na bio\n\n#PlugInPower #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
     "id": "atppost32",
     "client": "atp",
     "at": "2026-11-23T10:00:00-03:00",
@@ -388,31 +408,11 @@
     "tries": 0
   },
   {
-    "id": "pp25-credenciada",
-    "client": "plugin",
-    "at": "2026-11-23T11:30:00-03:00",
-    "media": "media/plugin/pp25-credenciada.mp4",
-    "caption": "Credenciada BYD e homologada GreenV. 🚗 E 9 marcas de carregadores homologadas para o seu condomínio. Link na bio\n\n#BYD #GreenV #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
     "id": "atppost49",
     "client": "atp",
     "at": "2026-11-25T10:00:00-03:00",
     "media": "media/atp/atppost49.mp4",
     "caption": "De Rio Claro/SP para todo o Brasil. 🇧🇷 Prazo de 15 a 30 dias após a aprovação e entrega para clientes em todo o país. Fale no WhatsApp · link na bio\n\n#brasil #entreganacional #aerossol #terceirizacao #atpclean",
-    "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
-  },
-  {
-    "id": "pp26-curitiba",
-    "client": "plugin",
-    "at": "2026-11-25T11:30:00-03:00",
-    "media": "media/plugin/pp26-curitiba.mp4",
-    "caption": "Seu condomínio pronto pro carro elétrico. ⚡ Projeto, instalação e ART para condomínios em Curitiba e região metropolitana. Link na bio\n\n#CuritibaPR #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
     "status": "pending",
     "tries": 0
