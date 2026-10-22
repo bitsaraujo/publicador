@@ -180,8 +180,12 @@
     "media": "media/plugin/pp15-quem-carrega-paga.mp4",
     "caption": "Quem carrega, paga. Só isso. ⚡ Com a medição individual de consumo, cada morador paga só o que carrega, sem rateio na conta do condomínio. Link na bio\n\n#Individualizacao #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "posted_at": "2026-10-22T14:36:51.632Z",
+    "ig_media_id": "18106057745633314",
+    "permalink": "https://www.instagram.com/reel/DezNjxiAibx/",
+    "error": null
   },
   {
     "id": "pp16-modular",
