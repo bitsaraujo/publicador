@@ -89,7 +89,8 @@ async function publicar(p) {
   const { id } = await igPost("me/media_publish", { creation_id: container }, token);
   const info = await igGet(id, { fields: "permalink" }, token).catch(() => ({}));
   Object.assign(p, { status: "posted", posted_at: new Date().toISOString(), ig_media_id: id, permalink: info.permalink || null, error: null });
-  fs.rmSync(path.join(ROOT, p.media), { force: true }); // libera espaco no Pages (limite 1 GB)
+  // libera espaco no Pages (limite 1 GB), a nao ser que o mesmo video volte em outra data
+  if (!sched.some((o) => o !== p && o.status === "pending" && o.media === p.media)) fs.rmSync(path.join(ROOT, p.media), { force: true });
   return "ok";
 }
 

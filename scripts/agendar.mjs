@@ -63,10 +63,13 @@ const feitos = [];
 for (const id of idsArg.split(",").map((s) => s.trim()).filter(Boolean)) {
   const post = posts.find((p) => p.id === id || p.comando === id);
   if (!post) throw new Error(`${id} nao existe em ${c.posts}`);
-  if (sched.some((p) => p.client === clientId && p.id === post.id && p.status !== "error")) {
+  // --repetir: o mesmo post pode voltar em outra semana (cardapio fixo); vira id-r2, id-r3... com o mesmo video
+  const vezes = sched.filter((p) => p.client === clientId && (p.id === post.id || p.id.startsWith(`${post.id}-r`)) && p.status !== "error").length;
+  if (vezes && !args.includes("--repetir")) {
     console.log(`${id}: ja estava agendado, pulei`);
     continue;
   }
+  const entryId = vezes ? `${post.id}-r${vezes + 1}` : post.id;
   const src = winPath(post.video);
   if (!fs.existsSync(src)) throw new Error(`video nao encontrado: ${src}`);
   const media = `media/${clientId}/${post.id}.mp4`;
@@ -78,8 +81,8 @@ for (const id of idsArg.split(",").map((s) => s.trim()).filter(Boolean)) {
   const at = proximo.next().value;
   ocupados.add(at.slice(0, 10));
   const caption = [post.legenda, post.hashtags].filter(Boolean).join("\n\n");
-  sched.push({ id: post.id, client: clientId, at, media, caption, thumb_ms: capaMs(dst), ...(validade ? { validade_h: validade } : {}), status: "pending", tries: 0 });
-  feitos.push(`${at.slice(0, 16).replace("T", " ")}  ${clientId}/${post.id}  (${(fs.statSync(dst).size / 2 ** 20).toFixed(1)} MB)`);
+  sched.push({ id: entryId, client: clientId, at, media, caption, thumb_ms: capaMs(dst), ...(validade ? { validade_h: validade } : {}), status: "pending", tries: 0 });
+  feitos.push(`${at.slice(0, 16).replace("T", " ")}  ${clientId}/${entryId}  (${(fs.statSync(dst).size / 2 ** 20).toFixed(1)} MB)`);
 }
 
 sched.sort((a, b) => Date.parse(a.at) - Date.parse(b.at));
