@@ -1,5 +1,5 @@
 // Roda no PC: pega posts prontos do posts.json do cliente, copia a midia pro repo e marca as datas.
-// uso: node scripts/agendar.mjs <cliente> <id1,id2,...> [--inicio 2026-10-28] [--dias seg,qua,sex] [--hora 11:30] [--em "2026-10-16 15:45,..."]
+// uso: node scripts/agendar.mjs <cliente> <id1,id2,...> [--inicio 2026-10-28] [--dias seg,qua,sex] [--hora 11:30] [--em "2026-10-16 15:45,..."] [--validade 3]
 //   ex: node scripts/agendar.mjs villa dd-mocaccino,dd-cappuccino --inicio 2026-10-28
 // Depois: git add -A && git commit && git push (o robo publica sozinho na hora).
 import fs from "fs";
@@ -23,6 +23,7 @@ const DIAS = { dom: 0, seg: 1, ter: 2, qua: 3, qui: 4, sex: 5, sab: 6 };
 const dias = opt("dias", "seg,qua,sex").split(",").map((d) => DIAS[d]);
 const hora = opt("hora", "11:30");
 const inicio = opt("inicio", new Date(Date.now() + 864e5).toISOString().slice(0, 10));
+const validade = opt("validade", "") ? Number(opt("validade")) : null; // horas: "Hoje tem X" nao sai atrasado
 const MAX_MB = 12; // acima disso comprime (a Meta recomprime de qualquer jeito)
 
 const posts = JSON.parse(fs.readFileSync(c.posts, "utf8"));
@@ -77,7 +78,7 @@ for (const id of idsArg.split(",").map((s) => s.trim()).filter(Boolean)) {
   const at = proximo.next().value;
   ocupados.add(at.slice(0, 10));
   const caption = [post.legenda, post.hashtags].filter(Boolean).join("\n\n");
-  sched.push({ id: post.id, client: clientId, at, media, caption, thumb_ms: capaMs(dst), status: "pending", tries: 0 });
+  sched.push({ id: post.id, client: clientId, at, media, caption, thumb_ms: capaMs(dst), ...(validade ? { validade_h: validade } : {}), status: "pending", tries: 0 });
   feitos.push(`${at.slice(0, 16).replace("T", " ")}  ${clientId}/${post.id}  (${(fs.statSync(dst).size / 2 ** 20).toFixed(1)} MB)`);
 }
 

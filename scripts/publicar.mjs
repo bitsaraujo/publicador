@@ -95,8 +95,21 @@ async function publicar(p) {
 
 const sched = schedule();
 const agora = Date.now();
+
+// post com validade (ex.: "Hoje tem feijoada", validade_h: 3) que passou da hora nao sai atrasado
+for (const p of sched) {
+  if (p.status === "pending" && p.validade_h && agora > Date.parse(p.at) + p.validade_h * 36e5) {
+    Object.assign(p, { status: "expired", error: `passou ${p.validade_h}h da hora marcada sem publicar` });
+    log(`${p.client}/${p.id}: EXPIRADO (nao publica atrasado)`);
+  }
+}
+
+// conta ainda sem chave (ex.: Vila antes de conectar) fica esperando, sem gastar tentativa
+const semChave = new Set(sched.filter((p) => p.status === "pending" && !tokens[p.client]).map((p) => p.client));
+if (semChave.size) log(`sem chave, aguardando conexao: ${[...semChave].join(", ")}`);
+
 const vencidos = sched
-  .filter((p) => p.status === "pending" && Date.parse(p.at) <= agora)
+  .filter((p) => p.status === "pending" && Date.parse(p.at) <= agora && tokens[p.client])
   .sort((a, b) => Date.parse(a.at) - Date.parse(b.at))
   .slice(0, MAX_POR_RODADA);
 
