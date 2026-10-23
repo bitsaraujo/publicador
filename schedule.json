@@ -280,6 +280,17 @@
     "tries": 0
   },
   {
+    "id": "dd-chocolate-quente",
+    "client": "villa",
+    "at": "2026-10-26T08:30:00-03:00",
+    "media": "media/villa/dd-chocolate-quente.mp4",
+    "caption": "Chocolate quente no Villa. 🍫 Cremoso e quentinho pra qualquer dia.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#ChocolateQuente #CafeNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost26",
     "client": "atp",
     "at": "2026-10-26T10:00:00-03:00",
@@ -320,6 +331,17 @@
     "tries": 0
   },
   {
+    "id": "dd-cafe-expresso",
+    "client": "villa",
+    "at": "2026-10-27T15:00:00-03:00",
+    "media": "media/villa/dd-cafe-expresso.mp4",
+    "caption": "Café expresso no Villa. ☕ Curto, intenso e do jeito certo.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#CafeExpresso #Cafe #CafeNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "pp26-curitiba",
     "client": "plugin",
     "at": "2026-10-27T18:00:00-03:00",
@@ -340,12 +362,56 @@
     "tries": 0
   },
   {
+    "id": "dd-japones",
+    "client": "villa",
+    "at": "2026-10-28T11:00:00-03:00",
+    "media": "media/villa/dd-japones.mp4",
+    "caption": "Hoje tem japonês no buffet do Villa. 🍣 Sushi direto no buffet.\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemJapones #Sushi #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-rabada",
+    "client": "villa",
+    "at": "2026-10-29T11:00:00-03:00",
+    "media": "media/villa/dd-rabada.mp4",
+    "caption": "Hoje tem rabada no buffet do Villa. 🍲 Cozida até soltar do osso.\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemRabada #Rabada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-pao-com-ovo",
+    "client": "villa",
+    "at": "2026-10-29T15:00:00-03:00",
+    "media": "media/villa/dd-pao-com-ovo.mp4",
+    "caption": "Pão francês com ovo no Villa. 🍳 Simples e perfeito pra começar o dia.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#PaoComOvo #CafeDaManha #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost45",
     "client": "atp",
     "at": "2026-10-30T10:00:00-03:00",
     "media": "media/atp/atppost45.mp4",
     "caption": "Construção civil precisa de produto que funciona. 🏗 Espuma expansiva, silicone, desengripantes e limpa-contato com qualidade industrial e a sua marca. Fale no WhatsApp · link na bio\n\n#construcaocivil #produtosparaobra #aerossol #marcapropria #atpclean",
     "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-feijoada",
+    "client": "villa",
+    "at": "2026-10-30T11:00:00-03:00",
+    "media": "media/villa/dd-feijoada.mp4",
+    "caption": "Hoje tem feijoada no buffet do Villa. 🍲 Feijão preto encorpado, direto do buffet.\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemFeijoada #Feijoada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
     "status": "pending",
     "tries": 0
   },
@@ -360,12 +426,56 @@
     "tries": 0
   },
   {
+    "id": "dd-cappuccino",
+    "client": "villa",
+    "at": "2026-11-03T15:00:00-03:00",
+    "media": "media/villa/dd-cappuccino.mp4",
+    "caption": "Cappuccino no Villa. ☕ Espuma cremosa e aquele abraço em forma de café.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Cappuccino #Cafe #CafeNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost42",
     "client": "atp",
     "at": "2026-11-04T10:00:00-03:00",
     "media": "media/atp/atppost42.mp4",
     "caption": "Espuma expansiva em aerossol para a sua linha de obra. 🏗 A ATP desenvolve e envasa para construção civil com a sua marca. Fale no WhatsApp · link na bio\n\n#espumaexpansiva #construcaocivil #aerossol #marcapropria #atpclean",
     "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-japones-2",
+    "client": "villa",
+    "at": "2026-11-04T11:00:00-03:00",
+    "media": "media/villa/dd-japones-2.mp4",
+    "caption": "Quarta é dia de japonês no Villa. 🍣 Sushi, ceviche e yakisoba no buffet.\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Japonês #Sushi #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-rabada-2",
+    "client": "villa",
+    "at": "2026-11-05T11:00:00-03:00",
+    "media": "media/villa/dd-rabada-2.mp4",
+    "caption": "Quinta é dia de rabada no Villa. 🍲\n\nEstá no buffet do almoço, te esperando.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Rabada #QuintaTemRabada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-salgados",
+    "client": "villa",
+    "at": "2026-11-05T15:00:00-03:00",
+    "media": "media/villa/dd-salgados.mp4",
+    "caption": "Salgados assados no Villa. 😋 Douradinhos e perfeitos pro seu lanche.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#SalgadosAssados #LancheNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
     "status": "pending",
     "tries": 0
   },
@@ -380,12 +490,45 @@
     "tries": 0
   },
   {
+    "id": "dd-feijoada-2",
+    "client": "villa",
+    "at": "2026-11-06T11:00:00-03:00",
+    "media": "media/villa/dd-feijoada-2.mp4",
+    "caption": "Sexta é dia de feijoada no Villa. 🍲\n\nEstá no buffet do almoço, te esperando.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Feijoada #SextaTemFeijoada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-torta-frango",
+    "client": "villa",
+    "at": "2026-11-09T08:30:00-03:00",
+    "media": "media/villa/dd-torta-frango.mp4",
+    "caption": "Torta de frango no Villa. 🥧 Massa dourada e recheio cremoso.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#TortaDeFrango #LancheNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost29",
     "client": "atp",
     "at": "2026-11-09T10:00:00-03:00",
     "media": "media/atp/atppost29.mp4",
     "caption": "É aqui que o seu aerossol nasce. ⚙️ Envase com processo controlado do início ao fim: cada lata sai no padrão que a sua marca promete. Fale no WhatsApp · link na bio\n\n#envase #bastidores #aerossol #producao #atpclean",
     "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-empada",
+    "client": "villa",
+    "at": "2026-11-10T15:00:00-03:00",
+    "media": "media/villa/dd-empada.mp4",
+    "caption": "Empada no Villa. 😋 Massinha que desmancha na boca.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Empada #LancheNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
     "status": "pending",
     "tries": 0
   },
@@ -400,12 +543,67 @@
     "tries": 0
   },
   {
+    "id": "dd-japones-3",
+    "client": "villa",
+    "at": "2026-11-11T11:00:00-03:00",
+    "media": "media/villa/dd-japones-3.mp4",
+    "caption": "Japonês no buffet de hoje. 🍣\n\nToda quarta no almoço do Villa.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemJaponês #Sushi #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-rabada-3",
+    "client": "villa",
+    "at": "2026-11-12T11:00:00-03:00",
+    "media": "media/villa/dd-rabada-3.mp4",
+    "caption": "Rabada no buffet de hoje. 🍲 Cozida até soltar do osso.\n\nPassa aqui no almoço.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemRabada #Rabada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-pao-na-chapa",
+    "client": "villa",
+    "at": "2026-11-12T15:00:00-03:00",
+    "media": "media/villa/dd-pao-na-chapa.mp4",
+    "caption": "Pão na chapa no Villa. 🍞 Crocante por fora, macio por dentro.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#PaoNaChapa #CafeDaManha #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost47",
     "client": "atp",
     "at": "2026-11-13T10:00:00-03:00",
     "media": "media/atp/atppost47.mp4",
     "caption": "O segmento hospitalar exige mais. 🏥 A ATP desenvolve aerossol de marca própria para segmentos exigentes, com testes em cada lote. Fale no WhatsApp · link na bio\n\n#hospitalar #qualidade #aerossol #marcapropria #atpclean",
     "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-feijoada-3",
+    "client": "villa",
+    "at": "2026-11-13T11:00:00-03:00",
+    "media": "media/villa/dd-feijoada-3.mp4",
+    "caption": "Feijoada no buffet de hoje. 🍲 Encorpada e cheia de sabor.\n\nPassa aqui no almoço.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemFeijoada #Feijoada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-soda",
+    "client": "villa",
+    "at": "2026-11-16T08:30:00-03:00",
+    "media": "media/villa/dd-soda.mp4",
+    "caption": "Soda italiana no Villa. 🥤 Gelada, borbulhante e cheia de cor.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#SodaItaliana #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
     "status": "pending",
     "tries": 0
   },
@@ -420,12 +618,56 @@
     "tries": 0
   },
   {
+    "id": "dd-mocaccino",
+    "client": "villa",
+    "at": "2026-11-17T15:00:00-03:00",
+    "media": "media/villa/dd-mocaccino.mp4",
+    "caption": "Mocaccino no Villa. ☕ Com base de Nutella ou, se preferir, de doce de leite.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Mocaccino #Cafe #CafeNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost48",
     "client": "atp",
     "at": "2026-11-18T10:00:00-03:00",
     "media": "media/atp/atppost48.mp4",
     "caption": "Envase controlado do início ao fim. ✅ Processo controlado e teste por lote, com a ISO 9001:2015 em implementação. Sua marca sai protegida. Fale no WhatsApp · link na bio\n\n#envase #controledequalidade #aerossol #terceirizacao #atpclean",
     "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-japones-4",
+    "client": "villa",
+    "at": "2026-11-18T11:00:00-03:00",
+    "media": "media/villa/dd-japones-4.mp4",
+    "caption": "Bora de japonês? Hoje tem sushi no buffet do Villa. 🍣\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Japonês #Sushi #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-rabada-4",
+    "client": "villa",
+    "at": "2026-11-19T11:00:00-03:00",
+    "media": "media/villa/dd-rabada-4.mp4",
+    "caption": "Bora de rabada? Hoje tem no buffet do Villa. 🍲\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Rabada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-misto-quente",
+    "client": "villa",
+    "at": "2026-11-19T15:00:00-03:00",
+    "media": "media/villa/dd-misto-quente.mp4",
+    "caption": "Misto quente no Villa. 🥪 Pão tostadinho e queijo derretendo.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#MistoQuente #LancheNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
     "status": "pending",
     "tries": 0
   },
@@ -440,12 +682,34 @@
     "tries": 0
   },
   {
+    "id": "dd-bauru",
+    "client": "villa",
+    "at": "2026-11-23T08:30:00-03:00",
+    "media": "media/villa/dd-bauru.mp4",
+    "caption": "Bauru no Villa. 🥪 Queijo derretido, do jeito que tem que ser.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Bauru #LancheNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost32",
     "client": "atp",
     "at": "2026-11-23T10:00:00-03:00",
     "media": "media/atp/atppost32.mp4",
     "caption": "Sua marca pode crescer — e a estrutura acompanha. 📈 Mais de 1.000.000 de unidades já produzidas pela ATP, com entrega para todo o Brasil. Fale no WhatsApp · link na bio\n\n#escala #producao #aerossol #terceirizacao #atpclean",
     "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-sonho",
+    "client": "villa",
+    "at": "2026-11-24T15:00:00-03:00",
+    "media": "media/villa/dd-sonho.mp4",
+    "caption": "Sonho recheado no Villa. 🍩 Fofinho por fora, recheado por dentro.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Sonho #SonhoRecheado #CafeNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
     "status": "pending",
     "tries": 0
   },
@@ -460,12 +724,67 @@
     "tries": 0
   },
   {
+    "id": "dd-japones-r2",
+    "client": "villa",
+    "at": "2026-11-25T11:00:00-03:00",
+    "media": "media/villa/dd-japones.mp4",
+    "caption": "Hoje tem japonês no buffet do Villa. 🍣 Sushi direto no buffet.\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemJapones #Sushi #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-rabada-r2",
+    "client": "villa",
+    "at": "2026-11-26T11:00:00-03:00",
+    "media": "media/villa/dd-rabada.mp4",
+    "caption": "Hoje tem rabada no buffet do Villa. 🍲 Cozida até soltar do osso.\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemRabada #Rabada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-suco",
+    "client": "villa",
+    "at": "2026-11-26T15:00:00-03:00",
+    "media": "media/villa/dd-suco.mp4",
+    "caption": "Suco de polpa no Villa. 🧃 Geladinho e refrescante.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#SucoDePolpa #Suco #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost33",
     "client": "atp",
     "at": "2026-11-27T10:00:00-03:00",
     "media": "media/atp/atppost33.mp4",
     "caption": "Cosmético em aerossol com a sua marca. ✨ A ATP também atende cosméticos e higiene pessoal: desenvolvimento, envase e controle de qualidade sob o mesmo teto. Fale no WhatsApp · link na bio\n\n#cosmeticos #higienepessoal #aerossol #marcapropria #atpclean",
     "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-feijoada-4",
+    "client": "villa",
+    "at": "2026-11-27T11:00:00-03:00",
+    "media": "media/villa/dd-feijoada-4.mp4",
+    "caption": "Sextou com feijoada no buffet do Villa. 🍲\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Sextou #Feijoada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-affogato",
+    "client": "villa",
+    "at": "2026-11-30T08:30:00-03:00",
+    "media": "media/villa/dd-affogato.mp4",
+    "caption": "Café affogato no Villa. ☕🍨 Sorvete + espresso: o encontro perfeito.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#CafeAffogato #Affogato #CafeNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
     "status": "pending",
     "tries": 0
   },
@@ -480,12 +799,56 @@
     "tries": 0
   },
   {
+    "id": "dd-cafe-expresso-r2",
+    "client": "villa",
+    "at": "2026-12-01T15:00:00-03:00",
+    "media": "media/villa/dd-cafe-expresso.mp4",
+    "caption": "Café expresso no Villa. ☕ Curto, intenso e do jeito certo.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#CafeExpresso #Cafe #CafeNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost35",
     "client": "atp",
     "at": "2026-12-02T10:00:00-03:00",
     "media": "media/atp/atppost35.mp4",
     "caption": "Uma linha de manutenção com o seu nome. 🔧 Desengripantes, limpa-contato, silicones e lubrificantes: o que a indústria usa todo dia, produzido pela ATP com a sua marca. Fale no WhatsApp · link na bio\n\n#manutencao #industrial #desengripante #aerossol #atpclean",
     "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-japones-2-r2",
+    "client": "villa",
+    "at": "2026-12-02T11:00:00-03:00",
+    "media": "media/villa/dd-japones-2.mp4",
+    "caption": "Quarta é dia de japonês no Villa. 🍣 Sushi, ceviche e yakisoba no buffet.\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Japonês #Sushi #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-rabada-2-r2",
+    "client": "villa",
+    "at": "2026-12-03T11:00:00-03:00",
+    "media": "media/villa/dd-rabada-2.mp4",
+    "caption": "Quinta é dia de rabada no Villa. 🍲\n\nEstá no buffet do almoço, te esperando.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Rabada #QuintaTemRabada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-pao-com-ovo-r2",
+    "client": "villa",
+    "at": "2026-12-03T15:00:00-03:00",
+    "media": "media/villa/dd-pao-com-ovo.mp4",
+    "caption": "Pão francês com ovo no Villa. 🍳 Simples e perfeito pra começar o dia.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#PaoComOvo #CafeDaManha #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
     "status": "pending",
     "tries": 0
   },
@@ -500,6 +863,28 @@
     "tries": 0
   },
   {
+    "id": "dd-feijoada-r2",
+    "client": "villa",
+    "at": "2026-12-04T11:00:00-03:00",
+    "media": "media/villa/dd-feijoada.mp4",
+    "caption": "Hoje tem feijoada no buffet do Villa. 🍲 Feijão preto encorpado, direto do buffet.\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemFeijoada #Feijoada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-torta-frango-r2",
+    "client": "villa",
+    "at": "2026-12-07T08:30:00-03:00",
+    "media": "media/villa/dd-torta-frango.mp4",
+    "caption": "Torta de frango no Villa. 🥧 Massa dourada e recheio cremoso.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#TortaDeFrango #LancheNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost37",
     "client": "atp",
     "at": "2026-12-07T10:00:00-03:00",
@@ -510,12 +895,166 @@
     "tries": 0
   },
   {
+    "id": "dd-cappuccino-r2",
+    "client": "villa",
+    "at": "2026-12-08T15:00:00-03:00",
+    "media": "media/villa/dd-cappuccino.mp4",
+    "caption": "Cappuccino no Villa. ☕ Espuma cremosa e aquele abraço em forma de café.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Cappuccino #Cafe #CafeNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "atppost14",
     "client": "atp",
     "at": "2026-12-09T10:00:00-03:00",
     "media": "media/atp/atppost14.mp4",
     "caption": "Você não precisa de uma fábrica de aerossol para ter a sua marca. 🏭 A ATP América Latina cuida do desenvolvimento, do envase e do controle de qualidade. Você cuida da marca e das vendas. Fale no WhatsApp · link na bio\n\n#terceirizacao #aerossol #marcapropria #privatelabel #atpclean",
     "thumb_ms": 4826,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-japones-3-r2",
+    "client": "villa",
+    "at": "2026-12-09T11:00:00-03:00",
+    "media": "media/villa/dd-japones-3.mp4",
+    "caption": "Japonês no buffet de hoje. 🍣\n\nToda quarta no almoço do Villa.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemJaponês #Sushi #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-rabada-3-r2",
+    "client": "villa",
+    "at": "2026-12-10T11:00:00-03:00",
+    "media": "media/villa/dd-rabada-3.mp4",
+    "caption": "Rabada no buffet de hoje. 🍲 Cozida até soltar do osso.\n\nPassa aqui no almoço.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemRabada #Rabada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-empada-r2",
+    "client": "villa",
+    "at": "2026-12-10T15:00:00-03:00",
+    "media": "media/villa/dd-empada.mp4",
+    "caption": "Empada no Villa. 😋 Massinha que desmancha na boca.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Empada #LancheNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-feijoada-2-r2",
+    "client": "villa",
+    "at": "2026-12-11T11:00:00-03:00",
+    "media": "media/villa/dd-feijoada-2.mp4",
+    "caption": "Sexta é dia de feijoada no Villa. 🍲\n\nEstá no buffet do almoço, te esperando.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Feijoada #SextaTemFeijoada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-salgados-r2",
+    "client": "villa",
+    "at": "2026-12-14T08:30:00-03:00",
+    "media": "media/villa/dd-salgados.mp4",
+    "caption": "Salgados assados no Villa. 😋 Douradinhos e perfeitos pro seu lanche.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#SalgadosAssados #LancheNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-pao-na-chapa-r2",
+    "client": "villa",
+    "at": "2026-12-15T15:00:00-03:00",
+    "media": "media/villa/dd-pao-na-chapa.mp4",
+    "caption": "Pão na chapa no Villa. 🍞 Crocante por fora, macio por dentro.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#PaoNaChapa #CafeDaManha #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-japones-4-r2",
+    "client": "villa",
+    "at": "2026-12-16T11:00:00-03:00",
+    "media": "media/villa/dd-japones-4.mp4",
+    "caption": "Bora de japonês? Hoje tem sushi no buffet do Villa. 🍣\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Japonês #Sushi #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-rabada-4-r2",
+    "client": "villa",
+    "at": "2026-12-17T11:00:00-03:00",
+    "media": "media/villa/dd-rabada-4.mp4",
+    "caption": "Bora de rabada? Hoje tem no buffet do Villa. 🍲\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Rabada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-mocaccino-r2",
+    "client": "villa",
+    "at": "2026-12-17T15:00:00-03:00",
+    "media": "media/villa/dd-mocaccino.mp4",
+    "caption": "Mocaccino no Villa. ☕ Com base de Nutella ou, se preferir, de doce de leite.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Mocaccino #Cafe #CafeNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-feijoada-3-r2",
+    "client": "villa",
+    "at": "2026-12-18T11:00:00-03:00",
+    "media": "media/villa/dd-feijoada-3.mp4",
+    "caption": "Feijoada no buffet de hoje. 🍲 Encorpada e cheia de sabor.\n\nPassa aqui no almoço.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemFeijoada #Feijoada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-chocolate-quente-r2",
+    "client": "villa",
+    "at": "2026-12-21T08:30:00-03:00",
+    "media": "media/villa/dd-chocolate-quente.mp4",
+    "caption": "Chocolate quente no Villa. 🍫 Cremoso e quentinho pra qualquer dia.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#ChocolateQuente #CafeNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-soda-r2",
+    "client": "villa",
+    "at": "2026-12-22T15:00:00-03:00",
+    "media": "media/villa/dd-soda.mp4",
+    "caption": "Soda italiana no Villa. 🥤 Gelada, borbulhante e cheia de cor.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#SodaItaliana #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 6,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "dd-japones-r3",
+    "client": "villa",
+    "at": "2026-12-23T11:00:00-03:00",
+    "media": "media/villa/dd-japones.mp4",
+    "caption": "Hoje tem japonês no buffet do Villa. 🍣 Sushi direto no buffet.\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemJapones #Sushi #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
+    "thumb_ms": 3635,
+    "validade_h": 3,
     "status": "pending",
     "tries": 0
   }
