@@ -222,8 +222,12 @@
     "media": "media/plugin/pp17-carga.mp4",
     "caption": "Vários carros, carga sob controle. ⚙️ Planejamento elétrico completo e gerenciamento de carga para a garagem do condomínio receber mais carregadores. Link na bio\n\n#GerenciamentoDeCarga #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "posted_at": "2026-10-23T14:48:52.770Z",
+    "ig_media_id": "18097967501110971",
+    "permalink": "https://www.instagram.com/reel/De1zudBDQUP/",
+    "error": null
   },
   {
     "id": "pp18-assembleia",
