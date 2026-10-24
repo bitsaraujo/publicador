@@ -264,8 +264,12 @@
     "media": "media/plugin/pp20-orcamento.mp4",
     "caption": "Orçamento fechado, sem surpresa. 📋 Projeto de engenharia com orçamento fechado e memorial descritivo antes de começar a obra. Link na bio\n\n#Orcamento #Engenharia #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "posted_at": "2026-10-24T21:18:45.461Z",
+    "ig_media_id": "18411411205086961",
+    "permalink": "https://www.instagram.com/reel/De5FI7Gj0Pc/",
+    "error": null
   },
   {
     "id": "pp21-instalacao",
