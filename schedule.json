@@ -250,8 +250,12 @@
     "media": "media/plugin/pp19-visita.mp4",
     "caption": "Antes de orçar, a gente vistoria. 🔎 Visita técnica gratuita: quadro, aterramento, padrão de entrada e carga disponível do seu condomínio. Link na bio\n\n#VisitaTecnica #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "posted_at": "2026-10-24T14:41:56.824Z",
+    "ig_media_id": "18120104572754174",
+    "permalink": "https://www.instagram.com/reel/De4XutwjlyQ/",
+    "error": null
   },
   {
     "id": "pp20-orcamento",
