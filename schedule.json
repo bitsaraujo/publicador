@@ -292,8 +292,12 @@
     "media": "media/plugin/pp22-entrega.mp4",
     "caption": "Entregue com ART e garantia ativada. ✅ Entrega documentada com ART, comissionamento do carregador e ativação da garantia. Link na bio\n\n#ART #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "posted_at": "2026-10-25T21:17:33.582Z",
+    "ig_media_id": "17947673928348135",
+    "permalink": "https://www.instagram.com/reel/De7pzQAjhxf/",
+    "error": null
   },
   {
     "id": "dd-chocolate-quente",
