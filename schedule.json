@@ -278,8 +278,12 @@
     "media": "media/plugin/pp21-instalacao.mp4",
     "caption": "Instalado em 1 a 3 dias úteis. ⏱️ Depois do projeto e do orçamento aprovados, a instalação certificada do carregador sai rápido. Link na bio\n\n#Instalacao #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "posted_at": "2026-10-25T14:42:02.553Z",
+    "ig_media_id": "18099094721659519",
+    "permalink": "https://www.instagram.com/reel/De68jfYgXXd/",
+    "error": null
   },
   {
     "id": "pp22-entrega",
