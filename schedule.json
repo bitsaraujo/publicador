@@ -360,8 +360,9 @@
     "media": "media/plugin/pp25-credenciada.mp4",
     "caption": "Credenciada BYD e homologada GreenV. 🚗 E 9 marcas de carregadores homologadas para o seu condomínio. Link na bio\n\n#BYD #GreenV #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
+    "status": "paused",
+    "tries": 0,
+    "error": "pausado a pedido do cliente (27/10): conteudo sera refeito"
   },
   {
     "id": "dd-cafe-expresso",
@@ -381,8 +382,9 @@
     "media": "media/plugin/pp26-curitiba.mp4",
     "caption": "Seu condomínio pronto pro carro elétrico. ⚡ Projeto, instalação e ART para condomínios em Curitiba e região metropolitana. Link na bio\n\n#CuritibaPR #CarregadorCarroEletrico #Condominio #Wallbox #Curitiba",
     "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
+    "status": "paused",
+    "tries": 0,
+    "error": "pausado a pedido do cliente (27/10): conteudo sera refeito"
   },
   {
     "id": "atppost41",
