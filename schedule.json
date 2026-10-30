@@ -459,8 +459,9 @@
     "caption": "Hoje tem feijoada no buffet do Villa. 🍲 Feijão preto encorpado, direto do buffet.\n\nVem almoçar com a gente.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemFeijoada #Feijoada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
     "thumb_ms": 3635,
     "validade_h": 3,
-    "status": "pending",
-    "tries": 0
+    "status": "expired",
+    "tries": 0,
+    "error": "passou 3h da hora marcada sem publicar"
   },
   {
     "id": "atppost28",
