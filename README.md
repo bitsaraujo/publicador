@@ -17,7 +17,7 @@ node scripts/agendar.mjs villa dd-mocaccino,dd-cappuccino --inicio 2026-10-28 --
 git add -A && git commit -m "agenda" && git pull --rebase && git push
 ```
 
-Clientes: `villa`, `atp`, `plugin` (ver `clients.json`). Horário de Brasília.
+Clientes: `villa`, `atp`, `plugin`, `ra` (ver `clients.json`). Horário de Brasília.
 
 ## Configuração (uma vez)
 
@@ -26,7 +26,7 @@ Clientes: `villa`, `atp`, `plugin` (ver `clients.json`). Horário de Brasília.
    "Testador do Instagram" e aceitaram o convite (instagram.com → Configurações → Apps e sites).
 2. Painel do app → Instagram → Configuração da API com login do Instagram → Gerar tokens → uma chave por conta.
 3. No repositório do GitHub → Settings → Secrets and variables → Actions → New repository secret:
-   `IG_TOKEN_VILLA`, `IG_TOKEN_ATP`, `IG_TOKEN_PLUGIN` (as chaves) e `TOKEN_KEY` (uma senha longa qualquer,
+   `IG_TOKEN_VILLA`, `IG_TOKEN_ATP`, `IG_TOKEN_PLUGIN`, `IG_TOKEN_RA` (as chaves) e `TOKEN_KEY` (uma senha longa qualquer,
    usada para cifrar as chaves renovadas em `tokens.enc`).
 4. Settings → Pages → Deploy from a branch → `main` / root.
 5. Actions → publicar → Run workflow → modo `verificar`: tem que dar OK nas 3 contas.
