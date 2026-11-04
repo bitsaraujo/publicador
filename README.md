@@ -1,6 +1,6 @@
 # Publicador
 
-Robô que publica os Reels de Vila Palhano, ATP e Plugin Power no Instagram na data marcada.
+Robô que publica os Reels de Villa Palhano, ATP e Plugin Power no Instagram na data marcada.
 Roda de graça no GitHub Actions a cada 15 min; não precisa de PC ligado nem VPS.
 
 - `schedule.json`: o calendário (quem, quando, legenda, status).
