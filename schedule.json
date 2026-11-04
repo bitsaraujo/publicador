@@ -485,8 +485,9 @@
     "caption": "Cappuccino no Villa. ☕ Espuma cremosa e aquele abraço em forma de café.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Cappuccino #Cafe #CafeNoVilla #VillaPalhano #GlebaPalhano",
     "thumb_ms": 3635,
     "validade_h": 6,
-    "status": "pending",
-    "tries": 0
+    "status": "expired",
+    "tries": 0,
+    "error": "passou 6h da hora marcada sem publicar"
   },
   {
     "id": "atppost42",
