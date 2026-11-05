@@ -523,8 +523,9 @@
     "caption": "Quinta é dia de rabada no Villa. 🍲\n\nEstá no buffet do almoço, te esperando.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#Rabada #QuintaTemRabada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
     "thumb_ms": 3635,
     "validade_h": 3,
-    "status": "pending",
-    "tries": 0
+    "status": "expired",
+    "tries": 0,
+    "error": "passou 3h da hora marcada sem publicar"
   },
   {
     "id": "dd-salgados",
