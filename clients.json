@@ -26,5 +26,12 @@
     "secret": "IG_TOKEN_RA",
     "posts": "D:/_CLIENTES/RA-IMOVEIS/ra-social/posts.json",
     "projeto": "D:/_CLIENTES/RA-IMOVEIS/ra-social"
+  },
+  "pullin": {
+    "nome": "Pullin de Araujo",
+    "instagram": "pullindearaujo",
+    "secret": "IG_TOKEN_PULLIN",
+    "posts": "D:/_CLIENTES/PULLIN/pullin-social/posts.json",
+    "projeto": "D:/_CLIENTES/PULLIN/pullin-social"
   }
 }

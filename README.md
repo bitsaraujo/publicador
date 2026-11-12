@@ -17,7 +17,7 @@ node scripts/agendar.mjs villa dd-mocaccino,dd-cappuccino --inicio 2026-10-28 --
 git add -A && git commit -m "agenda" && git pull --rebase && git push
 ```
 
-Clientes: `villa`, `atp`, `plugin`, `ra` (ver `clients.json`). Horário de Brasília.
+Clientes: `villa`, `atp`, `plugin`, `ra`, `pullin` (ver `clients.json`). Horário de Brasília.
 
 ## Configuração (uma vez)
 

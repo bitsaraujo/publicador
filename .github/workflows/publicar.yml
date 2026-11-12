@@ -36,6 +36,7 @@ jobs:
           IG_TOKEN_ATP: ${{ secrets.IG_TOKEN_ATP }}
           IG_TOKEN_PLUGIN: ${{ secrets.IG_TOKEN_PLUGIN }}
           IG_TOKEN_RA: ${{ secrets.IG_TOKEN_RA }}
+          IG_TOKEN_PULLIN: ${{ secrets.IG_TOKEN_PULLIN }}
       - name: salvar status
         if: always()
         run: |
