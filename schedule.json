@@ -871,8 +871,9 @@
     "caption": "Feijoada no buffet de hoje. 🍲 Encorpada e cheia de sabor.\n\nPassa aqui no almoço.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#HojeTemFeijoada #Feijoada #AlmoçoNoVilla #VillaPalhano #GlebaPalhano",
     "thumb_ms": 3635,
     "validade_h": 3,
-    "status": "pending",
-    "tries": 0
+    "status": "expired",
+    "tries": 0,
+    "error": "passou 3h da hora marcada sem publicar"
   },
   {
     "id": "studio-lifespace-ST0048",
