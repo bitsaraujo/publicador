@@ -890,6 +890,26 @@
     "error": null
   },
   {
+    "id": "01-apresentacao",
+    "client": "pullin",
+    "at": "2026-11-13T15:40:00-03:00",
+    "media": "media/pullin/01-apresentacao.mp4",
+    "caption": "Está com dúvidas sobre direito bancário?\n\nSou Fábio Pullin de Araujo, advogado, e atuo há mais de 17 anos na área. Comecei minha carreira em um escritório que atendia grandes instituições financeiras e, desde 2010, me dedico à defesa de empresários e consumidores que enfrentam problemas com dívidas bancárias.\n\nSe você ou sua empresa estão passando por isso, existem caminhos jurídicos que merecem ser avaliados.\n\nFale com o escritório: WhatsApp (43) 3026-9010\n\nPullin de Araujo & Advogados Associados | OAB/PR 5.056\n\n#direitobancario #advogado #dividabancaria #empresarios",
+    "thumb_ms": 44940,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "02-juros-empresa",
+    "client": "pullin",
+    "at": "2026-11-13T18:10:00-03:00",
+    "media": "media/pullin/02-juros-empresa.mp4",
+    "caption": "Sua empresa pagou juros abusivos ao banco?\n\nMuitos empresários passam anos usando cheque especial, limite da conta e outras linhas de crédito para manter a empresa funcionando. Dependendo das condições contratadas, podem existir cobranças indevidas ou juros abusivos.\n\nMesmo que a empresa ainda esteja devendo, uma revisão pode identificar valores cobrados indevidamente. Em determinadas situações, esses valores podem ser compensados com a dívida ou até gerar dinheiro a receber. Tudo depende de uma análise técnica dos extratos e contratos bancários.\n\nPodemos avaliar se existem valores a recuperar.\nWhatsApp (43) 3026-9010\n\nPullin de Araujo & Advogados Associados | OAB/PR 5.056\n\n#direitobancario #jurosabusivos #revisaobancaria #empresarios",
+    "thumb_ms": 37980,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "casamia-bigorrilho-AP0464",
     "client": "ra",
     "at": "2026-11-13T18:30:00-03:00",
@@ -900,12 +920,42 @@
     "tries": 0
   },
   {
+    "id": "03-divida-empresa",
+    "client": "pullin",
+    "at": "2026-11-13T20:40:00-03:00",
+    "media": "media/pullin/03-divida-empresa.mp4",
+    "caption": "Sua empresa está devendo na conta do banco?\n\nCheque especial e limites da conta corrente usados durante anos acumulam juros e encargos que fazem a dívida crescer ainda mais. Essas cobranças podem ser revisadas para identificar possíveis irregularidades.\n\nEm determinados casos, após a revisão dos juros cobrados indevidamente, a empresa pode deixar de ser devedora e passar a ser credora do próprio banco. Isso depende de uma análise detalhada dos contratos, extratos e encargos.\n\nAntes de aceitar o saldo que o banco apresenta, entenda como essa dívida foi formada.\nWhatsApp (43) 3026-9010\n\nPullin de Araujo & Advogados Associados | OAB/PR 5.056\n\n#direitobancario #dividaempresarial #revisaobancaria #empresarios",
+    "thumb_ms": 39480,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "cetus-hugo-lange-AP0360",
     "client": "ra",
     "at": "2026-11-14T11:30:00-03:00",
     "media": "media/ra/cetus-hugo-lange-AP0360.mp4",
     "caption": "4 suítes no Hugo Lange, voltado para o campo de golfe ⛳\n\nEdifício Cetus · Rua João Américo de Oliveira. Apartamento com sacada e janelas do piso ao teto em praticamente toda a sua extensão, voltado para o Campo de Golf do Graciosa Country Clube. Traz a sensação de morar em uma casa térrea, com um belo e imenso jardim, muita luminosidade natural e bem ensolarado.\n\nSão 312,14 m² privativos, com espaços amplos e marcenaria de qualidade:\n▫️ 4 suítes\n▫️ 2 salas de estar, sala de jantar e sala íntima\n▫️ Cozinha e copa\n▫️ Lavabo e sacada\n▫️ 6 banheiros\n▫️ 4 vagas de garagem individuais\n▫️ Face norte\n\nNo condomínio, com a área comum voltada para o campo de golfe: piscina aquecida, salão gourmet, salão de festas, churrasqueira externa, quadra poliesportiva e solarium. Portaria 24 horas.\n\n💰 R$ 5.700.000\nCondomínio R$ 6.821 · IPTU R$ 883/mês\n📌 Ref. AP0360\n\nAgende sua visita com uma de nossas consultoras pelo WhatsApp (41) 99933-8962.\n\n#imoveiscuritiba #hugolange #apartamentoavenda #curitiba #imobiliariara",
     "thumb_ms": 32740,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "04-financiar-carro",
+    "client": "pullin",
+    "at": "2026-11-14T11:40:00-03:00",
+    "media": "media/pullin/04-financiar-carro.mp4",
+    "caption": "Vai financiar um carro? Não olhe só o valor da parcela.\n\nEm épocas de juros altos, pequenas diferenças na taxa representam milhares de reais no valor total do financiamento. Antes de assinar o contrato:\n\n- compare as taxas de juros\n- verifique o Custo Efetivo Total (CET)\n- fique atento a seguros, tarifas e outros encargos incluídos\n- confira quanto você vai pagar até o final do contrato\n\nNem toda taxa elevada é abusiva, mas cobranças irregulares podem ser questionadas judicialmente. Conheça seus direitos e evite prejuízos.\nWhatsApp (43) 3026-9010\n\nPullin de Araujo & Advogados Associados | OAB/PR 5.056\n\n#financiamentodeveiculo #direitobancario #jurosabusivos #direitodoconsumidor",
+    "thumb_ms": 41880,
+    "status": "pending",
+    "tries": 0
+  },
+  {
+    "id": "05-revisao-financiamento",
+    "client": "pullin",
+    "at": "2026-11-14T18:20:00-03:00",
+    "media": "media/pullin/05-revisao-financiamento.mp4",
+    "caption": "Você financiou um carro e acha que está pagando juros abusivos?\n\nMuita gente paga parcelas altas sem saber exatamente quais juros, tarifas e encargos estão sendo cobrados. Dependendo do contrato, podem existir juros abusivos, tarifas irregulares e até cobrança de serviços que você não contratou.\n\nE mesmo que o financiamento já esteja quitado, ainda pode ser possível revisar o contrato e recuperar valores pagos indevidamente.\n\nAntes de aceitar uma cobrança ou renegociar, analise as condições do contrato.\nWhatsApp (43) 3026-9010\n\nPullin de Araujo & Advogados Associados | OAB/PR 5.056\n\n#revisaodefinanciamento #financiamentodeveiculo #jurosabusivos #direitobancario",
+    "thumb_ms": 35160,
     "status": "pending",
     "tries": 0
   },
