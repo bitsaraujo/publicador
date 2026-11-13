@@ -831,8 +831,9 @@
     "caption": "Pão na chapa no Villa. 🍞 Crocante por fora, macio por dentro.\n\nPassa no Villa e pede o seu.\n\n📍 João Wyclif, 111 — Gleba Palhano.\n\n#PaoNaChapa #CafeDaManha #VillaPalhano #GlebaPalhano",
     "thumb_ms": 3635,
     "validade_h": 6,
-    "status": "pending",
-    "tries": 0
+    "status": "expired",
+    "tries": 0,
+    "error": "passou 6h da hora marcada sem publicar"
   },
   {
     "id": "vaga-central-park-GA0050",
