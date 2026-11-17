@@ -1092,8 +1092,12 @@
     "caption": "",
     "origem": "cardapio_2026-11-17_104950.png",
     "validade_h": 3,
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "posted_at": "2026-11-17T14:43:37.310Z",
+    "ig_media_id": "18130343662881335",
+    "permalink": "https://www.instagram.com/stories/vilapalhanolondrina/4032459063489278705",
+    "error": null
   },
   {
     "id": "san-thomaz-batel-AP0454",
