@@ -69,21 +69,26 @@ async function publicar(p) {
   const url = new URL(p.media, PAGES).href;
   if (!(await urlNoAr(url))) return "midia-fora";
 
-  const caption = p.caption.slice(0, 2200);
+  const caption = (p.caption || "").slice(0, 2200);
+  const story = p.tipo === "story"; // story nao tem legenda nem aparece em me/media
 
   // trava contra repeticao: se ja existe post com essa legenda desde a hora marcada, so registra
-  const recentes = await igGet("me/media", { fields: "caption,timestamp,permalink", limit: "15" }, token);
-  const igual = (s) => (s || "").replace(/\s+/g, " ").trim().slice(0, 120);
-  const ja = recentes.data.find((m) => igual(m.caption) === igual(caption) && Date.parse(m.timestamp) >= Date.parse(p.at) - 36e5);
-  if (ja) {
-    Object.assign(p, { status: "posted", posted_at: ja.timestamp, ig_media_id: ja.id, permalink: ja.permalink || null, error: null });
-    return "ja-estava";
+  if (!story) {
+    const recentes = await igGet("me/media", { fields: "caption,timestamp,permalink", limit: "15" }, token);
+    const igual = (s) => (s || "").replace(/\s+/g, " ").trim().slice(0, 120);
+    const ja = recentes.data.find((m) => igual(m.caption) === igual(caption) && Date.parse(m.timestamp) >= Date.parse(p.at) - 36e5);
+    if (ja) {
+      Object.assign(p, { status: "posted", posted_at: ja.timestamp, ig_media_id: ja.id, permalink: ja.permalink || null, error: null });
+      return "ja-estava";
+    }
   }
 
   // thumb_offset = quadro usado como capa (o primeiro quadro das animacoes e vazio)
-  const params = p.media.endsWith(".mp4")
-    ? { media_type: "REELS", video_url: url, caption, share_to_feed: "true", thumb_offset: String(p.thumb_ms ?? 4000) }
-    : { image_url: url, caption }; // imagem precisa ser JPEG
+  const params = story
+    ? { media_type: "STORIES", image_url: url } // imagem precisa ser JPEG
+    : p.media.endsWith(".mp4")
+      ? { media_type: "REELS", video_url: url, caption, share_to_feed: "true", thumb_offset: String(p.thumb_ms ?? 4000) }
+      : { image_url: url, caption }; // imagem precisa ser JPEG
   const { id: container } = await igPost("me/media", params, token);
   await esperarProcessar(container, token);
   const { id } = await igPost("me/media_publish", { creation_id: container }, token);
