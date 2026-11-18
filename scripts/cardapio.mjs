@@ -1,4 +1,4 @@
-// Roda no PC pelo Agendador de Tarefas (a cada 5 min, 7h-15h): pega o cardapio do dia que o bot do Telegram
+// Roda no PC pelo Agendador de Tarefas (a cada 1 min, 7h-15h): pega o cardapio do dia que o bot do Telegram
 // grava em MENU_DIARIO/05_ENTREGAVEIS, converte para JPEG e agenda como story do Villa na hora.
 // O robo do GitHub publica na rodada seguinte (ate ~15 min).
 // uso: node scripts/cardapio.mjs [--teste]   (--teste so mostra o que faria)
@@ -9,7 +9,7 @@ import { ROOT, schedule, writeJson } from "./lib.mjs";
 
 const PASTA = "D:/_CLIENTES/VILLA-PALHANO/MENU_DIARIO/05_ENTREGAVEIS";
 const FFMPEG = "C:/ffmpeg/bin/ffmpeg.exe";
-const ESPERA_MIN = 5; // se o cardapio for reenviado ao bot sai outro PNG logo depois: espera o ultimo do dia assentar
+const ESPERA_MIN = 2; // se o cardapio for reenviado ao bot sai outro PNG logo depois: espera o ultimo do dia assentar (era 5; Pedro pediu menos em 18/11)
 const VALIDADE_H = 3; // cardapio nao sai atrasado (ex.: chave fora do ar ate a tarde)
 const teste = process.argv.includes("--teste");
 const log = (...a) => console.log(new Date().toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo" }), ...a);
