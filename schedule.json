@@ -1153,6 +1153,18 @@
     "tries": 0
   },
   {
+    "id": "cardapio-2026-11-18",
+    "client": "villa",
+    "tipo": "story",
+    "at": "2026-11-18T10:02:00-03:00",
+    "media": "media/villa/cardapio-2026-11-18.jpg",
+    "caption": "",
+    "origem": "cardapio_2026-11-18_095550.png",
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "dd-japones-4",
     "client": "villa",
     "at": "2026-11-18T11:00:00-03:00",
