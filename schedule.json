@@ -1216,6 +1216,18 @@
     "error": null
   },
   {
+    "id": "cardapio-2026-11-19",
+    "client": "villa",
+    "tipo": "story",
+    "at": "2026-11-19T10:33:00-03:00",
+    "media": "media/villa/cardapio-2026-11-19.jpg",
+    "caption": "",
+    "origem": "cardapio_2026-11-19_103055.png",
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "dd-rabada-4",
     "client": "villa",
     "at": "2026-11-19T11:00:00-03:00",
