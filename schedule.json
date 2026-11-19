@@ -1224,8 +1224,12 @@
     "caption": "",
     "origem": "cardapio_2026-11-19_103055.png",
     "validade_h": 3,
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "posted_at": "2026-11-19T13:38:04.448Z",
+    "ig_media_id": "18118361785833063",
+    "permalink": "https://www.instagram.com/stories/villapalhanolondrina/4033875639903999656",
+    "error": null
   },
   {
     "id": "dd-rabada-4",
