@@ -1353,8 +1353,12 @@
     "media": "media/atp/atppost32.mp4",
     "caption": "Sua marca pode crescer — e a estrutura acompanha. 📈 Mais de 1.000.000 de unidades já produzidas pela ATP, com entrega para todo o Brasil. Fale no WhatsApp · link na bio\n\n#escala #producao #aerossol #terceirizacao #atpclean",
     "thumb_ms": 4826,
-    "status": "pending",
-    "tries": 0
+    "status": "posted",
+    "tries": 0,
+    "posted_at": "2026-11-23T13:16:30.699Z",
+    "ig_media_id": "17921345508530610",
+    "permalink": "https://www.instagram.com/reel/DgFdzHijPVF/",
+    "error": null
   },
   {
     "id": "dd-sonho",
