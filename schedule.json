@@ -1377,6 +1377,18 @@
     "error": null
   },
   {
+    "id": "cardapio-2026-11-24",
+    "client": "villa",
+    "tipo": "story",
+    "at": "2026-11-24T11:04:00-03:00",
+    "media": "media/villa/cardapio-2026-11-24.jpg",
+    "caption": "",
+    "origem": "cardapio_2026-11-24_110116.png",
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "dd-sonho",
     "client": "villa",
     "at": "2026-11-24T15:00:00-03:00",
