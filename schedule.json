@@ -1527,6 +1527,18 @@
     "error": null
   },
   {
+    "id": "cardapio-2026-11-27",
+    "client": "villa",
+    "tipo": "story",
+    "at": "2026-11-27T10:15:00-03:00",
+    "media": "media/villa/cardapio-2026-11-27.jpg",
+    "caption": "",
+    "origem": "cardapio_2026-11-27_101228.png",
+    "validade_h": 3,
+    "status": "pending",
+    "tries": 0
+  },
+  {
     "id": "dd-feijoada-4",
     "client": "villa",
     "at": "2026-11-27T11:00:00-03:00",
